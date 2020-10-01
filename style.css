@@ -1,0 +1,943 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+body{
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+
+.wrapper{
+    /*border: 2px solid black;*/
+    width: 90%;
+    height: 60vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    background-image: url("img/bg-header-desktop.png");
+    background-repeat: no-repeat;
+}
+
+.wrapper-1 h2{
+    font-size: 4rem;
+}
+.wrapper2 h5{
+    width: 65%;
+    margin: 0 auto;
+    font-size: 26px;
+}
+.option-download{
+    display: flex;
+   /* border: 2px solid green;*/
+    width: 50%;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+.option-ios{
+    /*border: 1px solid pink;*/
+    background-color: hsl(171, 66%, 44%);
+    padding: 1rem;
+    width: 40%;
+    border-radius: 50rem;
+}
+
+.option-ios:hover{
+    box-shadow:2px 2px 2px  hsl(171, 66%, 44%) ;
+}
+.option-ios a {
+    text-decoration: none;
+    color: white;
+    
+}
+.option-mac{
+    /*border: 1px solid blue;*/
+    padding: 1rem;
+    background-color: hsl(233, 100%, 69%);
+    width: 40%;
+    border-radius: 50rem;
+}
+.option-mac:hover{
+    box-shadow:2px 2px 2px hsl(233, 100%, 69%) ;
+}
+.option-mac a{
+    text-decoration: none;
+    color: white;
+}
+
+.section{
+    /*border: 2px solid blue;*/
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 3rem;
+    text-align: center;
+    height: 25vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.section-2{
+   width: 73%;
+   margin: 0 auto;
+}
+
+.computer-section{
+    /*border: 2px solid green;*/
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin-top: 4rem;
+   
+}
+
+.clip img{
+   clip-path:  inset(0 0 0 10%);
+   width: 100%;
+  
+}
+
+.clip-description{
+   /* border: 2px solid yellow;*/
+    width: 30%;
+    height: 50vh;
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.computer-description{
+   /* border: 2px solid red;*/
+    width: 85%;
+    height: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.access{
+   /* border: 2px solid pink;*/
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 3rem;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.weather{
+    width: 70%;
+   margin: 0 auto;
+}
+.access-clip h2{
+    font-size: 3rem;
+}
+
+.track h3{
+  
+    font-size: 3rem;
+}
+
+.image-devices1{
+   
+    width: 100%;
+    margin: 0 auto;
+   
+}
+.image-devices{
+    /*border: 2px solid brown;*/
+    margin-top: 3rem;
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+
+}
+
+.workflow{
+    /*border: 2px solid red;*/
+    width: 50%;
+    height: 15vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 3rem;
+}
+
+.supercharge h2{
+    font-size: 3rem;
+}
+
+.icons{
+    display: flex;
+   /* border: 2px solid black;*/
+    width: 60%;
+    height: 20vh;
+    margin: 0 auto;
+    margin-top: 3rem;
+}
+
+.icon1{
+    /*border: 2px solid green;*/
+    height: 20vh;
+    width: 40%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.brand{
+    /*border: 2px solid purple;*/
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-top: 3rem;
+    height: 12vh;
+}
+.brand img{
+    width: 100%;
+}
+
+.next-to-footer{
+    /*border: 2px solid black;*/
+    width: 50%;
+    height: 35vh;
+    margin: 0 auto;
+    margin-top: 3rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-bottom: 2rem;
+}
+.clipboard-footer h3{
+    font-size: 3rem;
+}
+
+.next-to-footer1 h4{
+    width: 80%;
+    margin: 0 auto;
+}
+.next-to-footer2{
+    display: flex;
+    width: 100%;
+    /*border: 2px solid red;*/
+    margin: 0 auto;
+    justify-content: space-around;
+   
+}
+
+.next-to-footer3{
+    /*border: 1px solid blue;*/
+    background-color: hsl(171, 66%, 44%);
+    width: 40%;
+    padding: 15px;
+    border-radius: 50rem;
+    
+}
+.next-to-footer33{
+    /*border: 1px solid blue;*/
+    background-color: hsl(233, 100%, 69%);
+    width: 40%;
+    padding: 15px;
+    border-radius: 50rem;
+    
+}
+.next-to-footer3 a{
+    text-decoration: none;
+    color: white;
+}
+.next-to-footer33 a{
+    text-decoration: none;
+    color: white;
+}
+.footer{
+   /* border: 2px solid red;*/
+
+   background-color:  hsl(210, 12%, 97%);
+    display: flex;
+    width: 90%;
+    height: 13vh;
+    padding-top: 30px;
+    justify-content: space-around;
+  
+    margin: 0 auto;
+}
+
+.img-footer{
+    width: 50%;
+}
+
+.social-footer{
+    display: flex;
+    width: 30%;
+    justify-content: space-around;
+}
+.footer-link{
+    /*border: 2px solid purple;*/
+    display: flex;
+    
+    flex-direction: column;
+    height: 8vh;
+    justify-content: space-between;
+}
+.footer-link a{
+    text-decoration: none;
+    color: black;
+}
+
+.footer-link a:hover{
+    text-decoration: underline;
+    
+}
+.install-guide a{
+    text-decoration: none;
+    color: black;
+}
+
+.install-guide a:hover{
+    text-decoration: underline;
+   
+}
+@media screen and (max-width:500px){
+    .wrapper{
+       /* border: 2px solid black;*/
+        width: 100%;
+        height: 120vh; 
+        margin: 0 auto;
+        display: flex;
+      
+        flex-direction: column;
+        justify-content: space-around;
+        text-align: center;
+        background-image: url("img/bg-header-mobile.png");
+    }
+    .wrapper-1 h2{
+        width: 45%;
+        margin: 0 auto;
+    }
+    .wrapper2 h5{
+        width: 48%;
+        margin: 0 auto;
+    }
+    .option-download{
+        display: flex;
+        flex-direction: column;
+        /*border: 2px solid green;*/
+        width: 50%;
+        height: 20vh;
+        
+        margin: 0 auto;
+       
+        justify-content: space-between;
+    }
+    .option-ios{
+       /* border: 1px solid pink;*/
+        padding: 1rem;
+        width: 100%;
+       
+        border-radius: 50rem;
+    }
+
+    .option-mac{
+       /* border: 1px solid blue;*/
+        padding: 1rem;
+        width: 100%;
+        border-radius: 50rem;
+    }
+    .computer-section{
+       /* border: 2px solid green;*/
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 100%;
+        margin-top: 6rem;
+        height: 120vh;
+        margin: 0 auto;
+       
+    }
+
+    .clip-description{
+        /*border: 2px solid yellow;*/
+        width: 100%;
+        height: 80vh;
+        margin-top: 4rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .section{
+        /*border: 2px solid blue;*/
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 3rem;
+        text-align: center;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        margin-bottom: 2rem;
+    }
+
+    .track h3{
+        width: 90%;
+        margin: 0 auto;
+        font-size: 3rem;
+    }
+
+    .section-2{
+        width: 60%;
+        margin: 0 auto;
+     }
+
+     .wrapper-1 h2{
+         font-size: 3rem;
+         width: 95%;
+     }
+
+     .wrapper2 h5{
+         font-size: 1.1rem;
+        width: 78%;
+        
+        margin: 0 auto;
+    }
+
+    .option-download{
+        display: flex;
+        /*border: 2px solid green;*/
+        width: 100%;
+        margin: 0 auto;
+        justify-content: space-between;
+    }
+
+    .clip img{
+       clip-path:  inset(0 0 0 0);
+        width: 100%;
+       
+     }
+
+     .computer-description{
+        /*border: 2px solid red;*/
+        width: 55%;
+        margin:  0 auto;
+        height: 12vh;
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .access{
+       /* border: 2px solid pink;*/
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 3rem;
+        height: 28vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        text-align: center;
+    }
+
+    .weather{
+        width: 60%;
+       margin: 0 auto;
+    }
+
+    .image-devices{
+        /*border: 2px solid brown;*/
+        margin-top: 3rem;
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+        margin-top: 3rem;
+    
+    }
+
+    .workflow{
+       /* border: 2px solid red;*/
+        width: 100%;
+        height: 25vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        text-align: center;
+        margin: 0 auto;
+        margin-top: 3rem;
+    }
+    .icons{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+       /* border: 2px solid black;*/
+        width: 100%;
+        height: 100vh;
+        margin: 0 auto;
+        margin-top: 3rem;
+    }
+
+    .icon1{
+        /*border: 2px solid green;*/
+        height: 30vh;
+        width: 100%;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .brand{
+        /*border: 2px solid purple;*/
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        margin: 0 auto;
+        text-align: center;
+        margin-top: 3rem;
+        height: 100vh;
+    }
+    .brand img{
+        width: 50%;
+    }
+
+    .next-to-footer{
+        /*border: 2px solid black;*/
+        width: 90%;
+        height: 80vh;
+        margin: 0 auto;
+        margin-top: 3rem;
+        text-align: center;
+        display: flex;
+        margin-bottom: 3rem;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .next-to-footer2{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 35vh;
+        /*border: 2px solid red;*/
+        margin: 0 auto;
+        justify-content: space-around;
+    
+    }
+    .next-to-footer3{
+       /* border: 1px solid blue;*/
+        width: 100%;
+        padding: 15px;
+        background-color: hsl(171, 66%, 44%);
+        border-radius: 50rem;  
+    }
+
+    .next-to-footer33{
+        /*border: 1px solid blue;*/
+        background-color: hsl(233, 100%, 69%);
+        width: 100%;
+        padding: 15px;
+        border-radius: 50rem;
+        
+    }
+    .footer{
+        /*border: 2px solid red;*/
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 80vh;
+        padding-top: 30px;
+        justify-content: space-around;
+      
+        margin: 0 auto;
+    }
+
+    .footer-link{
+       /* border: 2px solid purple;*/
+        display: flex;
+        width: 50%;
+        flex-direction: column;
+        margin: 0 auto;
+        text-align: center;
+        height: 8vh;
+        justify-content: space-between;
+    }
+
+    .social-footer{
+        display: flex;
+        width: 30%;
+        justify-content: space-around;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+   .install-guide{
+       text-align: center;
+   }
+
+   .img-footer{
+    width: 25%;
+    margin: 0 auto;
+    display: flex;
+}
+}
+
+
+@media screen and (min-width:500px)  and (max-width:1100px){
+    .wrapper{
+       /* border: 2px solid black;*/
+        width: 100%;
+        height: 130vh; 
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        text-align: center;
+        background-image: url("img/bg-header-mobile.png");
+        background-repeat: repeat-x;
+    }
+    .wrapper-1 h2{
+        width: 45%;
+        margin: 0 auto;
+    }
+    .wrapper2 h5{
+        width: 48%;
+        margin: 0 auto;
+    }
+    .option-download{
+        display: flex;
+       flex-direction: column;
+        /*border: 2px solid green;*/
+       /* width: 30%;*/
+        height: 20vh;
+        margin: 0 auto;
+        justify-content: space-between;
+    }
+
+    .option-ios{
+        /*border: 1px solid pink;*/
+        padding: 1rem;
+        width: 100%;
+        margin: 0 auto;
+        border-radius: 50rem;
+    }
+
+    .option-mac{
+        /*border: 1px solid blue;*/
+        padding: 1rem;
+        border-radius: 50rem;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .computer-section{
+        /*border: 2px solid green;*/
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 100%;
+        margin-top: 6rem;
+        /*height: 160vh;*/
+        margin: 0 auto;
+       
+    }
+
+    .clip-description{
+        /*border: 2px solid yellow;*/
+        width: 80%;
+        /*height: 80vh;*/
+        height: 60vh;
+        margin-top: 0rem;
+        display: flex;
+        margin: 0 auto;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .section{
+       /* border: 2px solid blue;*/
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 3rem;
+        text-align: center;
+        height: 45vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        margin-bottom: 2rem;
+    }
+
+    .track h3{
+        width: 90%;
+        margin: 0 auto;
+        font-size: 3rem;
+    }
+
+    .section-2{
+        width: 60%;
+        margin: 0 auto;
+     }
+
+     .wrapper-1 h2{
+         font-size: 3rem;
+         width: 95%;
+     }
+
+     .wrapper2 h5{
+         font-size: 1.1rem;
+        width: 78%;
+        
+        margin: 0 auto;
+    }
+
+    .option-download{
+        display: flex;
+        /*border: 2px solid green;*/
+        width: 100%;
+        margin: 0 auto;
+        justify-content: space-between;
+    }
+
+    .clip img{
+       clip-path:  inset(0 0 0 0);
+        width: 100%;
+       
+     }
+
+     .computer-description{
+       /* border: 2px solid red;8/
+        width: 100%;
+        margin:  0 auto;
+        /*height: 25vh;*/
+        height: 10vh;
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .access{
+       /* border: 2px solid pink;*/
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 3rem;
+        height: 28vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        text-align: center;
+    }
+
+    .weather{
+        width: 60%;
+       margin: 0 auto;
+    }
+
+    .image-devices{
+        /*border: 2px solid brown;*/
+        margin-top: 3rem;
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+        margin-top: 3rem;
+    
+    }
+
+    .workflow{
+        /*border: 2px solid red;*/
+        width: 100%;
+        height: 25vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        text-align: center;
+        margin: 0 auto;
+        margin-top: 3rem;
+    }
+    .icons{
+        display: flex;
+        flex-direction: column;
+        /*border: 2px solid black;*/
+        width: 100%;
+        height: 90vh;
+        justify-content: space-between;
+        margin: 0 auto;
+        margin-top: 3rem;
+    }
+
+    .icon1{
+        /*border: 2px solid green;*/
+        height: 25vh;
+        width: 100%;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .brand{
+        /*border: 2px solid purple;*/
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        margin: 0 auto;
+        text-align: center;
+        margin-top: 3rem;
+        height: 150vh;
+    }
+    .brand img{
+        width: 50%;
+    }
+
+    .next-to-footer{
+       /* border: 2px solid black;*/
+        width: 90%;
+        height: 100vh;
+        margin: 0 auto;
+        margin-top: 3rem;
+        text-align: center;
+        display: flex;
+        margin-bottom: 3rem;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .next-to-footer2{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 45vh;
+       /* border: 2px solid red;*/
+        margin: 0 auto;
+        justify-content: space-around;
+    
+    }
+    .next-to-footer3{
+        /*border: 1px solid blue;*/
+        background-color: hsl(171, 66%, 44%);
+        width: 100%;
+        padding: 15px;
+        border-radius: 50rem;  
+    }
+
+    .next-to-footer33{
+       /* border: 1px solid blue;*/
+       background-color: hsl(233, 100%, 69%);
+        width: 100%;
+        padding: 15px;
+        border-radius: 50rem;
+        
+    }
+    .footer{
+        /*border: 2px solid red;*/
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 130vh;
+        padding-top: 30px;
+        justify-content: space-around;
+      
+        margin: 0 auto;
+    }
+
+    .footer-link{
+        /*border: 2px solid purple;*/
+        display: flex;
+        width: 50%;
+        flex-direction: column;
+        margin: 0 auto;
+        text-align: center;
+        height: 12vh;
+        justify-content: space-between;
+    }
+
+    .social-footer{
+        display: flex;
+        width: 30%;
+        justify-content: space-around;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+   .install-guide{
+       text-align: center;
+   }
+
+   .img-footer{
+    width: 25%;
+    margin: 0 auto;
+    display: flex;
+}
+
+
+}
+
+@media screen and (min-width:320px) and (max-width:450px){
+    .wrapper{
+      
+        height: 140vh; 
+       
+    }
+
+    .option-download{
+      
+        width: 100%;
+        height: 30vh; 
+    }
+
+    .clip-description{
+        
+        height: auto;  
+    }
+
+    .computer-section{
+        height: 150vh;  
+    }
+    .computer-description{
+        height: 20vh;
+      width: 100%;
+    }
+   
+    .access{
+      
+        height: 58vh; 
+    }
+    .next-to-footer{
+       
+        height: 120vh;
+       
+    }
+
+    .workflow{
+       
+        width: 100%;
+        height: 35vh;
+        
+    }
+    .next-to-footer2{
+       
+        width: 100%;
+        height: 25vh;
+       
+    
+    }
+
+   
+
+    .option-download{
+       
+        width: 100%;
+        height: 25vh;
+       
+    }
+}
+
